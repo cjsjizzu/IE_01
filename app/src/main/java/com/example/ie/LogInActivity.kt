@@ -51,7 +51,7 @@ class LogInActivity : AppCompatActivity() {
             } else { // ID나 Password 모두 입력한 경우, "로그인 성공!"이라는 토스트 메시지 띄우고 MainActivity로 이동
                 Toast.makeText(
                     this@LogInActivity,
-                    "로그인 성공",
+                    "로그인 성공!",
                     Toast.LENGTH_SHORT
                 ).show()
                 val intent = Intent(this@LogInActivity, MainActivity::class.java)
